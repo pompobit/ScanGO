@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Poke Alerts Radar</string>
+    <string name="app_name">Poke Notifications Radar</string>
 
     <string name="not_use_main">NON usare l\'account principale</string>
 
@@ -25,7 +25,7 @@
 
     <string name="searching_position">Recupero posizione</string>
 
-    <string name="title_activity_tabs">Poke Alerts Radar</string>
+    <string name="title_activity_tabs">Poke Notifications Radar</string>
 
     <string name="tab_map">Mappa</string>
     <string name="tab_scan">Scan</string>
