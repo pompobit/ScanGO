@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Poke Alerts Radar</string>
+
+    <string name="not_use_main">NON usare l\'account principale</string>
+
+    <string name="login_ptc">login Club Allenatori Pokemon</string>
+    <string name="register">"<a href='https://club.pokemon.com/it/club-allenatori-di-pokemon/iscriviti/'>Registrati</a>"</string>
+    <string name="register_link">https://club.pokemon.com/it/club-allenatori-di-pokemon/iscriviti/</string>
+
+    <string name="servers_slow">I server di Pokemon GO stanno rispondendo molto lentamente. Lo scan può continuare ma potrebbe impiegare molto tempo per completare un giro</string>
+
+    <string name="loading">Caricamento</string>
+    <string name="error">Errore</string>
+    <string name="success">Successo</string>
+    <string name="alert">Attenzione</string>
+
+    <string name="login_failed">Login non riuscito</string>
+    <string name="login_failed_text">Login non riuscito, nome e utente errati o errore del server</string>
+
+    <string name="login_success">Login riuscito</string>
+
+    <string name="location_permission_denied">Questa applicazione non può funzionare senza il permesso di accesso alla posizione.</string>
+    <!--string name="storage_permission_denied">I permessi di archiviazione sono necessari per salvare porzioni di mappa offline e diminuire il carico dati.</string-->
+    <!--Storage permission is required to store map tiles to reduce data usage and for offline usage.-->
+
+    <string name="searching_position">Recupero posizione</string>
+
+    <string name="title_activity_tabs">Poke Alerts Radar</string>
+
+    <string name="tab_map">Mappa</string>
+    <string name="tab_scan">Scan</string>
+    <string name="tab_filters">Filtri</string>
+    <string name="tab_settings">Impostazioni</string>
+
+    <string name="text_filters">I pokemon non selezionati qui, verrano ignorati al prossimo scan. </string>
+    <!--string name="select_all">Seleziona tutti. </string-->
+    <!--string name="deselect_all">Deseleziona tutti </string-->
+
+    <string name="google_login_failed">Google login fallito</string>
+
+    <!--
+    <string name="server_status_title">Stato server PokemonGO</string>
+    <string name="server_status_unknown">Sconosciuto</string>
+    <string name="server_status_stable">Buono</string>
+    <string name="server_status_unstable">Instabile</string>
+    <string name="server_status_unreachable">Irraggiungibile</string>
+    -->
+    <string name="scan_button">Scansione singola</string>
+    <string name="scan_loop">Scansione continua</string>
+    <string name="scan_stop">Interrompi la scansione</string>
+
+    <string name="scan_warning">La scansione può impiegare più tempo del previsto o addirittura fallire se le condizioni dei server di PokemonGo sono instabili. </string>
+
+    <string name="scan_status_stop"> "Stato: nessuna scansione." </string>
+    <string name="scan_status_scanning"> "Stato: sto scansionando... I pokemon stanno apparendo sulla mappa" </string>
+    <string name="scan_status_canceled"> "Stato: scansione interrotta." </string>
+    <string name="scan_status_done"> "Stato: scansione terminata." </string>
+
+
+    <string name="server_error"> "Errore del server" </string>
+    <string name="server_error_giveup"> "I server di PokemonGo non rispondono.\nSi prega di riprovare più tardi" </string>
+    <string name="login_expired"> "Login scaduto" </string>
+    <string name="login_expired_text"> "Il login sembra scaduto.\nEffettuare un nuovo login." </string>
+
+
+    <string name="expires_in"> "Scompare tra " </string>
+
+    <string name="your_position"> "La tua posizione" </string>
+
+
+    <string name="a"> "Un " </string>
+    <string name="is_nearby"> " è vicino!" </string>
+
+    <string name="is_within"> " è a meno di " </string>
+    <string name="it_will_disappear_in"> ". Scomparirà tra " </string>
+
+    <string name="meters"> "metri" </string>
+    <string name="feet"> "piedi" </string>
+
+    <string name="scan_active_notification"> "La scansione continua è attiva in background" </string>
+
+    <string name="setting_alerts"> "Notifiche pokemon" </string>
+    <string name="setting_alerts_desc"> "Le notifiche sono inviate solo dopo che i pokemon compaiono sulla mappa in seguito ad una scansione." </string>
+
+    <string name="setting_radius_alert"> "Distanza dei pokemon per le notifiche" </string>
+    <string name="setting_radius_alert_desc"> "Verrano notificati i pokemon che sono più vicini di questa distanza." </string>
+
+    <string name="setting_radius_scan"> "Raggio di scansione" </string>
+    <string name="setting_radius_scan_desc"> "Maggior è il raggio, maggiore è la distanza a cui verrano scansionati i pokemon. ATTENZIONE: impostare il raggio troppo grande aumenta i tempi di scansione." </string>
+
+    <string name="setting_radio_3meters"> "15 metri" </string>
+    <string name="setting_radio_5meters"> "50 metri" </string>
+    <string name="setting_radio_7meters"> "100 metri" </string>
+    <string name="setting_radio_10meters"> "150 metri" </string>
+    <string name="setting_radio_10feet"> "50 piedi" </string>
+    <string name="setting_radio_16feet"> "165 piedi" </string>
+    <string name="setting_radio_23feet"> "325 piedi" </string>
+    <string name="setting_radio_33feet"> "490 piedi" </string>
+
+    <string name="setting_radio_small"> "Piccolo" </string>
+    <string name="setting_radio_medium"> "Medio" </string>
+    <string name="setting_radio_large"> "Grande" </string>
+    <string name="setting_radio_very_large"> "Molto grande" </string>
+
+    <string name="setting_units_of_measure"> "Unità di misura" </string>
+
+    <string name="setting_disconnect"> "Disconnetti account" </string>
+
+    <string name="are_you_sure"> "Sei sicuro di volerti disconnettere dall'account PokemonGO?" </string>
+    <string name="yes"> "Sì" </string>
+    <string name="no"> "No" </string>
+
+    <string name="setting_alert_enabled"> "Notifiche abilitate" </string>
+    <!-- string name="setting_alert_disabled"> "Notifiche disabilitate" </string -->
+    <string name="setting_alert_enabled_text"> "Le notifiche verrano abilitate dalla prossima scansione." </string>
+    <!-- string name="setting_alert_disabled_text"> "Le notifiche verranno disabilitate dalla prossima scansione. Se hai ancora dei pokemon sulla mappa, potresti ricevere notiifiche fino a che non spariranno" </string -->
+
+    <string name="title_activity_settings">Impostazioni</string>
+
+
+
+
+    <string name="username">Nome utente</string>
+    <string name="remember_me">Ricordami</string>
+
+    <string name="google_login_coming_soon">Il login tramite google arriverà presto!</string>
+
+
+
+
+
+
+
+
+
+</resources>
