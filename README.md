@@ -19,7 +19,7 @@ You can choose to see just the pokemons you want!.
 
 ## WARNING
 
-**Niantic changed right now (4th august 2016) responses from your servers, the app doesn't work until a fix to manage the changes**
+**Niantic changed right now (4th august 2016) responses from their servers, the app doesn't work until a fix to manage the changes**
 
 
 ## INFO
