@@ -17,6 +17,10 @@ You can choose to see just the pokemons you want!.
 <img src="https://github.com/pompobit/PokeAlertsRadar/blob/master/images/Screenshot_20160725-131318.png" width="250" height="444">
 <img src="https://github.com/pompobit/PokeAlertsRadar/blob/master/images/Screenshot_20160725-131401.png" width="250" height="444">
 
+## WARNING
+
+**Niantic changed right now (4th august 2016) responses from your servers, the app doesn't work until a fix to manage the changes**
+
 
 ## INFO
 
