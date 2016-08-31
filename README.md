@@ -38,8 +38,6 @@ So to reassume, this app:
 - filter your preferred pokemons!
 - customizable parameters
 
-**DO NOT USE YOUR MAIN Pokemon GO ACCOUNT**, because the GPS position is managed by the app and Niantic could think that you are cheating. Simply use a dedicated account just for this app so you can use both "Pokemon GO" and "Poke Alerts Radar" at the same time
-
 
 ## Download Last APK
 
