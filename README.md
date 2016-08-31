@@ -1,6 +1,6 @@
 # ScanGO
 
-<a href="https://github.com/pompobit/ScanGO"><img src="https://github.com/pompobit/ScanGO/blob/master/images/radar2_512.png?raw=true" align="left" hspace="10" vspace="0"></a>
+<a href="https://github.com/pompobit/ScanGO"><img src="https://github.com/pompobit/ScanGO/blob/master/images/radar2_114.png?raw=true" align="left" hspace="10" vspace="0"></a>
 
 Hard to find pokemons on Pokemon GO? This apps allows you to scan your area for nearby pokemons!
 The pokemons found are shown on map and you will get notified when they are close to you with push notifications!
