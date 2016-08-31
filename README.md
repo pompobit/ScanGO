@@ -1,6 +1,6 @@
-# Poke Alerts Radar
+# ScanGO
 
-<a href="https://github.com/pompobit/PokeAlertsRadar"><img src="https://github.com/pompobit/PokeAlertsRadar/blob/master/images/pokeballradar.png?raw=true" align="left" hspace="10" vspace="0"></a>
+<a href="https://github.com/pompobit/ScanGO"><img src="https://github.com/pompobit/ScanGO/blob/master/images/radar2_512.png?raw=true" align="left" hspace="10" vspace="0"></a>
 
 Hard to find pokemons on Pokemon GO? This apps allows you to scan your area for nearby pokemons!
 The pokemons found are shown on map and you will get notified when they are close to you with push notifications!
@@ -13,18 +13,16 @@ You can choose to see just the pokemons you want!.
 <br/>
 <br/>
 
-<img src="https://github.com/pompobit/PokeAlertsRadar/blob/master/images/Screenshot_20160725-131334.png" width="250" height="444">
-<img src="https://github.com/pompobit/PokeAlertsRadar/blob/master/images/Screenshot_20160725-131318.png" width="250" height="444">
-<img src="https://github.com/pompobit/PokeAlertsRadar/blob/master/images/Screenshot_20160725-131401.png" width="250" height="444">
-
-## WARNING
-
-**Niantic changed right now (4th august 2016) responses from their servers, the app doesn't work until a fix to manage the changes**
+<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160810-151146.png" width="250" height="444">
+<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160810-151009.png" width="250" height="444">
+<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160725-131401.png" width="250" height="444">
 
 
 ## INFO
 
-This App allows to scan the surrounding area to find all nearby pokemons and show them on map in real-time. It is not based on user reports so the pokemons found are 100% real. Each pokemon on map has its own timer to know when that pokemon will disappear. Clicking on a pokemon on map is also possible to receive navigation instructions to reach him.
+This App allows to scan the surrounding area to find all nearby pokemons and show them on map in real-time.
+
+It doesn't require login and it doesn't access to Niantic servers, so it won't get you banned. It uses third party services.
 
 Receive notifications when a pokemon on map is closer than a certain distance set by you!.
 
@@ -45,7 +43,7 @@ So to reassume, this app:
 
 ## Download Last APK
 
-You can find last APK [HERE](https://github.com/pompobit/PokeAlertsRadar/releases).
+You can find last APK [HERE](https://github.com/pompobit/ScanGO/releases).
 Download the file named app-release.apk and install it on device.
 
 ## Contact
