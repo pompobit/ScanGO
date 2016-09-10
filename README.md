@@ -38,11 +38,19 @@ So to reassume, this app:
 - filter your preferred pokemons!
 - customizable parameters
 
+## Download from Amazon
 
-## Download Last APK
+you can find the app on the Amazon appstore (Amazon Underground).
+[LINK](https://www.amazon.com/ScanGO-Maps-Notifications-Pokemon-GO/dp/B01JF4YCUU/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1472642211&sr=1-1&keywords=scango)
+
+## Download Last APK 
 
 You can find last APK [HERE](https://github.com/pompobit/ScanGO/releases).
 Download the file named app-release.apk and install it on device.
+
+## Last Version
+
+v1.15
 
 ## Contact
 to contact me you can send me a private message on github, use the issues section or send an e-mail to pokemongofinder.dev@gmail.com
