@@ -46,7 +46,7 @@ you can find the app on the Amazon appstore (Amazon Underground).
 ## Download Last APK 
 
 You can find last APK [HERE](https://github.com/pompobit/ScanGO/releases).
-Download the file named app-release.apk and install it on device.
+Download the file named app-github-release.apk and install it on device.
 
 ## Last Version
 
