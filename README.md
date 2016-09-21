@@ -50,7 +50,7 @@ Download the file named app-github-release.apk and install it on device.
 
 ## Last Version
 
-v1.15
+v1.22
 
 ## Contact
 to contact me you can send me a private message on github, use the issues section or send an e-mail to pokemongofinder.dev@gmail.com
