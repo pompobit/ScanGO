@@ -2,7 +2,7 @@
 
 <a href="https://github.com/pompobit/ScanGO"><img src="https://github.com/pompobit/ScanGO/blob/master/images/radar2_114.png?raw=true" align="left" hspace="10" vspace="0"></a>
 
-Hard to find pokemons on Pokemon GO? This apps allows you to scan your area for nearby pokemons!
+Hard to find pokemons on Pokemon GO? Are you scared about being banned? This apps allows you to scan your area for nearby pokemons without risk of ban!
 The pokemons found are shown on map and you will get notified when they are close to you with push notifications!
 The push notification works in background so you don't need to keep the app on screen to receive them!
 You can choose to see just the pokemons you want!.
@@ -36,6 +36,7 @@ So to reassume, this app:
 - runs in background!
 - allows navigator instructions to reach pokemon on map
 - filter your preferred pokemons!
+- save, visualize and export spawn points!
 - customizable parameters
 
 ## Download from Amazon
@@ -50,7 +51,7 @@ Download the file named app-github-release.apk and install it on device.
 
 ## Last Version
 
-v1.22
+v1.24
 
 ## Contact
 to contact me you can send me a private message on github, use the issues section or send an e-mail to pokemongofinder.dev@gmail.com
