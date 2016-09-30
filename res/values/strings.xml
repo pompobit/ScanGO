@@ -1,19 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <string name="select_crowdsource_server">or Select a Crowdsource server</string>
-    <string name="background_search">Searching for pokemon in background</string>
+    <string name="background_search">Searching for pokemon in the background</string>
 
     <string name="tutorial_pokemonlist_title">Did you know?</string>
-    <string name="tutorial_pokemonlist_text">Click here to show in a list the pokemon found</string>
+    <string name="tutorial_pokemonlist_text">Click here to show a list of the pokemon found</string>
     <string name="tutorial_scan_title">How to scan</string>
-    <string name="tutorial_scan_text_1">To scan the surrounding area, click this button. \n A popup will show to let you choose some preferences, then you can start to scan for pokemon. \n REMEMBER: using this button the scan will always be centered on your actual location </string>
+    <string name="tutorial_scan_text_1">To scan the surrounding area, click this button. \n A popup will appear to let you choose some preferences, then you can start to scan for pokemon. \n REMEMBER: Using this button the scan will always be centered on your actual location </string>
     <string name="next">Next</string>
-    <string name="tutorial_scan_text_2">Instead, to scan a different location perform a long click on a point on the map. \n The same popup will show and you can start to scan your selected location.</string>
+    <string name="tutorial_scan_text_2">To scan a different location, perform a long click on a point on the map. \n The same popup will appear, and you can start to scan your selected location.</string>
 
     <string name="changelog_title">What\'s New</string>
     <string name="disclaimer">ScanGO doesn\'t communicate with Pokemon GO servers but is based on third party servers.</string>
     <string name="select_scan_server">Select a Scanner server</string>
-    <string name="servers_may_vary">(Servers can be added/removed with upcoming updates)</string>
+    <string name="servers_may_vary">(Servers can be added/removed in upcoming updates)</string>
     <string name="choose">Choose</string>
     <string name="speed">Speed</string>
     <string name="accuracy">Accuracy</string>
@@ -46,7 +46,7 @@
     <string name="tab_filters">Filters</string>
     <string name="tab_settings">Settings</string>
 
-    <string name="text_filters">Pokemon unchecked here will be ignored on next scans. </string>
+    <string name="text_filters">Pokemon unchecked here will be ignored on future scans. </string>
 
 
 
@@ -67,12 +67,13 @@
     <string name="server_error_giveup"> "Server is unresponsive.\nPlease try later or choose a different server." </string>
 
 
-    <string name="expires_in"> "It disappears in " </string>
+    <string name="expires_in"> "Disappears in " </string>
 
     <string name="your_position"> "Your location" </string>
 
 
     <string name="a"> "A " </string>
+    <string name="an"> "An " </string>    
     <string name="is_nearby"> " is nearby!" </string>
 
     <string name="is_within"> " is within " </string>
@@ -83,23 +84,23 @@
     <string name="scan_continuous">Continuous</string>
     <string name="scan_your_position">Scan your location</string>
     <string name="scan_custom_position">Scan custom location</string>
-    <string name="scan_start">Start to scan</string>
+    <string name="scan_start">Start scan</string>
 
 
     <string name="profile_edit"> "Edit" </string>
     <string name="profile_rename"> "Rename" </string>
     <string name="profile_delete"> "Delete" </string>
     <string name="profile_summary"> "Summary" </string>
-    <string name="profile_make_active"> "Make in use" </string>
+    <string name="profile_make_active"> "Activate Filter" </string>
     <string name="profile_active_text"> "In use:" </string>
     <string name="profile_active_remove"> "Remove" </string>
-    <string name="profile_new_filter"> "New Filters Profile" </string>
+    <string name="profile_new_filter"> "New Filter Profile" </string>
     <string name="profile_save"> "Save" </string>
     <string name="profile_select_all"> "Select all" </string>
     <string name="profile_deselect_all"> "Deselect all" </string>
     <string name="profile_alert_rename"> "Rename the profile" </string>
     <string name="profile_name_not_valid_or_in_use"> "Name not valid (only letters, numbers and spaces are allowed) or already in use" </string>
-    <string name="profile_now_active"> " profile is now in use" </string>
+    <string name="profile_now_active"> " Profile is now in use" </string>
     <string name="profile_now_active_title"> "Profile in use" </string>
     <string name="profile_delete_title"> "Delete Profile" </string>
     <string name="profile_delete_are_you_sure"> "Are you sure you want delete this Profile? If you just don't want to use it, you can use the remove button on top. Proceed anyway?" </string>
@@ -123,7 +124,7 @@
     <string name="spawn">"Spawn point"</string>
 
     <string name="spawn_enable_dialog_title"> No Spawn to show </string>
-    <string name="spawn_enable_dialog_msg"> No saved Spawns to show.\nYou still haven\'t found any Spawn or/and the Spawn saving option is disabled. Check the settings if you want to enable Spawn saving.</string>
+    <string name="spawn_enable_dialog_msg"> No saved Spawns to show.\nYou still haven\'t found any Spawn and/or the Spawn saving option is disabled. Check the settings if you want to enable Spawn saving.</string>
 
     <string name="about"> About me </string>
     <string name="about_descriptions"> ScanGO has been designed, implemented and advertised by just me in my spare time.\n If you find some bug or you think that ScanGO needs an additional feature contact me and I will try my best to please everyone.\n\n Disclaimer: ScanGO is in NO WAY affiliated with Niantic, The Pokèmon Company, Nintendo and the Pokèmon brand. No copyright infringement is intended</string>
@@ -133,23 +134,23 @@
     <string name="feet"> "feet" </string>
 
     <string name="delete_all_pokemon_title"> "Remove pokemon from map" </string>
-    <string name="delete_all_pokemon"> "Remove all pokemon from map?\nThey will appear again (if the spawn time is not expired) on a new scan." </string>
+    <string name="delete_all_pokemon"> "Remove all pokemon from map?\nThey will appear again (if the spawn time has not expired) on a new scan." </string>
     <string name="remove">Remove</string>
 
-    <string name="scan_active_notification"> "Scan is running in background." </string>
+    <string name="scan_active_notification"> "Scango is running in the background." </string>
 
     <string name="setting_alerts"> "Pokemon alerts" </string>
-    <string name="setting_alerts_desc"> "Notifications are sent only after the Pokemon appear on the map as a result of a scan." </string>
+    <string name="setting_alerts_desc"> "Notifications are sent only after the Pokemon appears on the map as a result of a scan." </string>
 
     <string name="setting_alerts_options"> "Notification Options" </string>
     <string name="setting_alerts_option_sound"> "Sound" </string>
     <string name="setting_alerts_option_vibration"> "Vibration" </string>
 
     <string name="setting_radius_alert"> "Alert Pokemon range" </string>
-    <string name="setting_radius_alert_desc"> Notifications will be sent just for pokemon closer than this distance. WARNING: setting this option to a large value (especially &#8734;) could lead to A LOT of notifications. Be careful. </string>
+    <string name="setting_radius_alert_desc"> Notifications will be sent for pokemon found within this distance. WARNING: setting this option to a large value (especially &#8734;) could lead to A LOT of notifications. Be careful. </string>
 
     <string name="setting_radius_scan"> "Scan radius" </string>
-    <string name="setting_radius_scan_desc"> "Larger is the radius, furthest the Pokemon will be found. WARNING: setting the radius too large results in a longer scan time" </string>
+    <string name="setting_radius_scan_desc"> "The larger the radius, the farther away Pokemon will be found. WARNING: setting the radius too large results in a longer scan time" </string>
 
     <string name="setting_radio_15meters"> "15m" </string>
     <string name="setting_radio_50meters"> "50m" </string>
@@ -170,7 +171,7 @@
     <string name="setting_radio_very_large"> "Very large" </string>
 
     <string name="setting_scan_delay"> Continuous scan interval</string>
-    <string name="setting_scan_delay_desc"> When in continuous scan mode, this time interval is waited between scans.\nApplying a greater interval reduces data usage, saves battery and servers\' work, but pokemon are searched less often. </string>
+    <string name="setting_scan_delay_desc"> When in continuous scan mode, scans are separated by this interval.\nApplying a greater interval reduces data usage, saves battery and servers\' work, but pokemon are scanned less frequently. </string>
     <string name="waiting_scan_interval"> Waiting scan time interval.\n(You can change this time in the settings) </string>
 
 
@@ -198,7 +199,7 @@
     <string name="result_apply_url_success"> "New images downloaded and applied correctly! They will appear on map after the next scan." </string>
     <string name="result_apply_url_failed"> "Failed to apply images. The URL is not valid or there is a problem contacting the server." </string>
     <string name="setting_change_images_from_zip"> "Custom Images from ZIP" </string>
-    <string name="setting_custom_images_from_zip_desc"> "You can change here the images of the pokemon found with your custom images. The file must be .zip with only .png images inside. Each png must be named {id}.png (ex: 1.png, 2.png...) and his size can be 32x32, 40x40 or 48x48." </string>
+    <string name="setting_custom_images_from_zip_desc"> "You can replace the displayed images of the pokemon found on your map with your custom images. The file must be .zip with only .png images inside. Each png must be named {id}.png (ex: 1.png, 2.png...) and the resolution can be 32x32, 40x40 or 48x48." </string>
     <string name="setting_progress_restore_default"> Restoring default images... </string>
     <string name="setting_progress_restore_default_success">Default images restored! They will appear on map after the next scan. </string>
     <string name="setting_progress_restore_default_failed"> Failed to restore default images, retry again or report this on pokemongofind.dev@gmail.com</string>
@@ -220,7 +221,7 @@
     <string name="progress_unzip"> "Applying new images..." </string>
     <string name="result_good_custom_images"> "new images correctly applied." </string>
     <string name="result_bad_custom_images"> "files were not valid." </string>
-    <string name="result_error_custom_images"> "The file must be .zip with only .png images inside. Each png must be named {id}.png (ex: 1.png, 2.png...) and his size can be 32x32, 40x40 or 48x48." </string>
+    <string name="result_error_custom_images"> "The file must be a .zip with only .png images inside. Each png must be named {id}.png (ex: 1.png, 2.png...) and the resoultion can be 32x32, 40x40 or 48x48." </string>
 
 
     <string name="yes"> "Yes" </string>
@@ -231,21 +232,21 @@
     <string name="setting_alert_enabled_text"> "Notifications will be enabled by the next scan." </string>
     <!-- string name="setting_alert_disabled_text"> "Le notifiche verranno disabilitate dalla prossima scansione. Se hai ancora dei pokemon sulla mappa, potresti ricevere notiifiche fino a che non spariranno" </string -->
 
-    <string name="title_activity_spanw">Spanws settings</string>
+    <string name="title_activity_spanw">Spawn settings</string>
 
-    <string name="enable_spawns">Enable Spawns saving</string>
-    <string name="enable_spawns_desc">Enabling Spawns saving, Scango will remember all the location where pokemon spawn and clicking on them you\'ll see when the next pokemon will show.\nWARNING: keeping too many spawns saved could decrese the performance of ScanGO. Go to settings to limit the number of spawns</string>
+    <string name="enable_spawns">Enable Spawn saving</string>
+    <string name="enable_spawns_desc">Enabling Spawn saving, Scango will remember all the locations where pokemon spawn and clicking on them will show when the next pokemon will spawn.\nWARNING: keeping too many spawns saved could decrese the performance of ScanGO. Go to settings to limit the number of spawns</string>
     <string name="delete_all_spawns">Delete all Spawns</string>
-    <string name="spawns_settings">Spawns settings</string>
+    <string name="spawns_settings">Spawn settings</string>
 
     <string name="numer_spawns_saved">Spawn points saved:</string>
-    <string name="spawns_limit">Spawn points limit</string>
-    <string name="spawns_limit_desc">When the Spawn points limit is exceeded, the saving of new Spawn points is disabled.</string>
+    <string name="spawns_limit">Spawn point limit</string>
+    <string name="spawns_limit_desc">When the Spawn point limit is exceeded, the saving of new Spawn points is disabled.</string>
 
     <string name="spawns_export_all">Export all Spawn points to Json</string>
 
     <string name="spawns_export">Export Spawn points to Json</string>
-    <string name="spawns_delete">Delete Spawns</string>
+    <string name="spawns_delete">Delete Spawn points</string>
     <string name="from">From</string>
     <string name="to">To</string>
     <string name="export">Export</string>
@@ -260,8 +261,8 @@
     <string name="exported_filename">"exported_spawn_points.json"</string>
     <string name="exported">" correctly saved!"</string>
 
-    <string name="limit_reached_noti_title">"Spawn points limit reached!"</string>
-    <string name="limit_reached_noti_msg">"You reached the limit of Spawn points saved. The automatically saving has been disabled, remove some Spawn points before to re-enable it"</string>
+    <string name="limit_reached_noti_title">"Spawn point limit reached!"</string>
+    <string name="limit_reached_noti_msg">"You reached the limit of Spawn points saved. Automatically saving has been disabled, remove some Spawn points before you re-enable it"</string>
 
 
     <string name="main_ad_unit_id" translatable="false">ca-app-pub-9826117765938943/2927483312</string>
