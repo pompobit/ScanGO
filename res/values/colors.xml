@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white_pearl">#f0ead6</color>
+    <color name="white">#ffffff</color>
+
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="yellow">#ffff00</color>
+    <color name="grey">#d3d3d3</color>
+    <color name="light_orange">#F4A83E</color>
+
+    <color name="transparent_grey">#5ad3d3d3</color>
+
+    <color name="full_transparent">#00ffffff</color> <!-- ff oppure 00? -->
+
+    <color name="map_blue">#5a11bdd0</color>
+    <color name="map_orange">#5affb300</color>
+    <color name="map_green">#5a43e41b</color>
+    <color name="map_red">#5aff0000</color>
+
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">#e0e0e0</color>
+</resources>

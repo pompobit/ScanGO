@@ -35,7 +35,7 @@
 
 
     <string name="location_permission_denied">This application cannot work without the access to your location.</string>
-    <string name="external_storage_permission_denied">Permission denied, cannot search for the zip file</string>
+    <string name="external_storage_permission_denied">Permission denied, cannot search the file</string>
 
     <string name="searching_position">Retrieving your location</string>
 
@@ -137,7 +137,7 @@
     <string name="delete_all_pokemon"> "Remove all pokemon from map?\nThey will appear again (if the spawn time has not expired) on a new scan." </string>
     <string name="remove">Remove</string>
 
-    <string name="scan_active_notification"> "Scango is running in the background." </string>
+    <string name="scan_active_notification"> "ScanGO is running in the background." </string>
 
     <string name="setting_alerts"> "Pokemon alerts" </string>
     <string name="setting_alerts_desc"> "Notifications are sent only after the Pokemon appears on the map as a result of a scan." </string>
@@ -245,6 +245,14 @@
 
     <string name="spawns_export_all">Export all Spawn points to Json</string>
 
+    <string name="spawns_import">Import Spawn points from Json</string>
+    <string name="spawns_import_progress">Importing Spawn points from Json...</string>
+    <string name="result_spawns_import_fail">Failed to import Spawn points. The json file is not valid.</string>
+    <string name="result_spawns_import_good">Spawn points correctly imported.</string>
+    <string name="result_spawns_import_duplicates">Spawn point duplicates found and not imported.</string>
+    <string name="result_spawns_import_bad_format">Spawn point with missing fields (spawnpoint_id, lat, lng or time) found and not imported.</string>
+    <string name="result_spawns_import_limit_reached">"You reached the limit of Spawn points saved, so the remaining have not been imported. The automatically saving has been disabled, remove some Spawn points before to re-enable it"</string>
+
     <string name="spawns_export">Export Spawn points to Json</string>
     <string name="spawns_delete">Delete Spawn points</string>
     <string name="from">From</string>
@@ -258,7 +266,7 @@
     <string name="deleted_spawn_msg1">" Spawn points!"</string>
 
     <string name="choose_directory">"Choose a directory"</string>
-    <string name="exported_filename">"exported_spawn_points.json"</string>
+    <string name="exported_filename">"exported_spawn_points"</string>
     <string name="exported">" correctly saved!"</string>
 
     <string name="limit_reached_noti_title">"Spawn point limit reached!"</string>

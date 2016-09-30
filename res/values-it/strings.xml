@@ -1,31 +1,42 @@
 <resources>
-    <string name="app_name">Poke Notifications Radar</string>
 
-    <string name="not_use_main">NON usare l\'account principale</string>
+    <string name="select_crowdsource_server">O scegli un server Crowdsource</string>
+    <string name="background_search">Sto cercando i pokemon in background</string>
 
-    <string name="login_ptc">login Club Allenatori Pokemon</string>
-    <string name="register">"<a href='https://club.pokemon.com/it/club-allenatori-di-pokemon/iscriviti/'>Registrati</a>"</string>
-    <string name="register_link">https://club.pokemon.com/it/club-allenatori-di-pokemon/iscriviti/</string>
+    <string name="tutorial_pokemonlist_title">Lo sapevi?</string>
+    <string name="tutorial_pokemonlist_text">Clicca qui per mostrare in una lista i pokemon trovati</string>
+    <string name="tutorial_scan_title">Come fare una scansione</string>
+    <string name="tutorial_scan_text_1">Per fare una scansione dell\'area circostante, clicca questo bottone. \n Comparirà un popup che ti permetterà di scegliere alcune opzioni e quindi di iniziare una scansione per trovare i pokemon \n RICORDA: usando questo bottone la scansione sarà sempre centrata sulla tua posizione reale</string>
+    <string name="next">Continua</string>
+    <string name="tutorial_scan_text_2">Invece, per fare una scansione di una zona differente fai un click prolungato su un punto nella mappa. \n Comparirà lo stesso popup e potrai iniziare una scansione della tua zona scelta.</string>
 
-    <string name="servers_slow">I server di Pokemon GO stanno rispondendo molto lentamente. Lo scan può continuare ma potrebbe impiegare molto tempo per completare un giro</string>
+    <string name="changelog_title">Che c\'è di nuovo</string>
+    <string name="disclaimer">ScanGO non comunica con i server di Pokemon GO ma è basato su server di terze parti.</string>
+    <string name="select_scan_server">Scegli un server Scansione</string>
+    <string name="servers_may_vary">(I Server potranno venire aggiunti/rimossi con i prossimi aggiornamenti)</string>
+    <string name="choose">Scegli</string>
+    <string name="speed">Velocità</string>
+    <string name="accuracy">Precisione</string>
+
+    <string name="internet_unavailable">Connessione non trovata. Controlla la tua connessione ad internet</string>
+    <string name="pokemons_found">Pokemon trovati</string>
+
+    <string name="app_name">ScanGO</string>
 
     <string name="loading">Caricamento</string>
     <string name="error">Errore</string>
     <string name="success">Successo</string>
     <string name="alert">Attenzione</string>
 
-    <string name="login_failed">Login non riuscito</string>
-    <string name="login_failed_text">Login non riuscito, nome e utente errati o errore del server</string>
-
-    <string name="login_success">Login riuscito</string>
 
     <string name="location_permission_denied">Questa applicazione non può funzionare senza il permesso di accesso alla posizione.</string>
+    <string name="external_storage_permission_denied">Permesso negato, non posso cercare il file</string>
     <!--string name="storage_permission_denied">I permessi di archiviazione sono necessari per salvare porzioni di mappa offline e diminuire il carico dati.</string-->
     <!--Storage permission is required to store map tiles to reduce data usage and for offline usage.-->
 
     <string name="searching_position">Recupero posizione</string>
 
-    <string name="title_activity_tabs">Poke Notifications Radar</string>
+    <string name="title_activity_tabs">ScanGO</string>
 
     <string name="tab_map">Mappa</string>
     <string name="tab_scan">Scan</string>
@@ -36,37 +47,61 @@
     <!--string name="select_all">Seleziona tutti. </string-->
     <!--string name="deselect_all">Deseleziona tutti </string-->
 
-    <string name="google_login_failed">Google login fallito</string>
 
-    <!--
-    <string name="server_status_title">Stato server PokemonGO</string>
-    <string name="server_status_unknown">Sconosciuto</string>
-    <string name="server_status_stable">Buono</string>
-    <string name="server_status_unstable">Instabile</string>
-    <string name="server_status_unreachable">Irraggiungibile</string>
-    -->
     <string name="scan_button">Scansione singola</string>
     <string name="scan_loop">Scansione continua</string>
     <string name="scan_stop">Interrompi la scansione</string>
 
-    <string name="scan_warning">La scansione può impiegare più tempo del previsto o addirittura fallire se le condizioni dei server di PokemonGo sono instabili. </string>
+    <string name="scan_warning">La scansione può impiegare più tempo del previsto o addirittura fallire se le condizioni del server sono instabili. </string>
 
     <string name="scan_status_stop"> "Stato: nessuna scansione." </string>
     <string name="scan_status_scanning"> "Stato: sto scansionando... I pokemon stanno apparendo sulla mappa" </string>
     <string name="scan_status_canceled"> "Stato: scansione interrotta." </string>
-    <string name="scan_status_done"> "Stato: scansione terminata." </string>
+    <string name="scan_status_done"> "Stato: scansione completata." </string>
 
 
     <string name="server_error"> "Errore del server" </string>
-    <string name="server_error_giveup"> "I server di PokemonGo non rispondono.\nSi prega di riprovare più tardi" </string>
-    <string name="login_expired"> "Login scaduto" </string>
-    <string name="login_expired_text"> "Il login sembra scaduto.\nEffettuare un nuovo login." </string>
+    <string name="server_error_giveup"> "Il server non risponde.\nRiprovare più tardi o scegliere un server diverso" </string>
 
 
     <string name="expires_in"> "Scompare tra " </string>
 
     <string name="your_position"> "La tua posizione" </string>
 
+    <string name="profile_edit"> "Modifica" </string>
+    <string name="profile_rename"> "Rinomina" </string>
+    <string name="profile_delete"> "Elimina" </string>
+    <string name="profile_summary"> "Sommario" </string>
+    <string name="profile_make_active"> "Rendi in uso" </string>
+    <string name="profile_active_text"> "In uso:" </string>
+    <string name="profile_active_remove"> "Rimuovi" </string>
+    <string name="profile_new_filter"> "Nuovo profilo" </string>
+    <string name="profile_save"> "Salva" </string>
+    <string name="profile_select_all"> "Seleziona tutti" </string>
+    <string name="profile_deselect_all"> "Deseleziona tutti" </string>
+    <string name="profile_alert_rename"> "Rinomina il profilo" </string>
+    <string name="profile_name_not_valid_or_in_use"> "Nome non valido (sono permessi solo lettere, numeri e spazi) o già in uso" </string>
+    <string name="profile_now_active"> " è ora il profilo in uso" </string>
+    <string name="profile_now_active_title"> "Profilo in uso" </string>
+    <string name="profile_delete_title"> "Elimina Profilo" </string>
+    <string name="profile_delete_are_you_sure"> "Sei sicuro che vuoi eliminare questo profilo? Se invece vuoi solo non usarlo, puoi usare il bottone rimuovi in alto. Procedere comunque?" </string>
+    <string name="profile_keep"> "Tienilo" </string>
+    <string name="profile_choose_name"> "Scegli un nome" </string>
+    <string name="profile_summary_filtered"> "Pokemon filtrati (questi pokemon NON saranno mostrati su mappa):\n\n" </string>
+    <string name="profile_summary_unfiltered"> "\nPokemon non filtrati (questi pokemon saranno mostrati su mappa):\n\n" </string>
+
+    <string name="profile_with_noti"> Notifiche attive </string>
+    <string name="profile_without_noti"> Notifiche DISATTIVATE </string>
+    <string name="filter_pokemon"> Filtra Pokemon </string>
+    <string name="map"> Mappa </string>
+    <string name="alerts"> Notif. </string>
+
+    <string name="spawns_in">"Il prossimo pokemon comparirà tra "</string>
+    <string name="pokemon_spawned">"Un pokemon dovresse essere nato qui ORA!"</string>
+    <string name="spawn">"Nido"</string>
+
+    <string name="spawn_enable_dialog_title">Nessun Nido da visualizzare</string>
+    <string name="spawn_enable_dialog_msg">Non ci sono Nidi da visualizzare.\nNon hai ancora trovato Nidi o/e il salvataggio dei nidi è disabilitato. Controlla le impostazioni se vuoi abilitare il salvataggio dei Nidi.</string>
 
     <string name="a"> "Un " </string>
     <string name="is_nearby"> " è vicino!" </string>
@@ -77,36 +112,95 @@
     <string name="meters"> "metri" </string>
     <string name="feet"> "piedi" </string>
 
-    <string name="scan_active_notification"> "La scansione continua è attiva in background" </string>
+    <string name="about"> Informazioni </string>
+    <string name="about_descriptions"> Questa applicazione è stata progettata, sviluppata e pubblicizzata interamente da me nel mio tempo libero. \n Se trovi un bug o pensi che ScanGO necessiti di qualche aggiunta o cambiamento, prova a contattarmi e farò del mio meglio per accontentare tutti.\nGrazie di aver provato Scango!\n\n Disclaimer: ScanGO non è affiliata in NESSUN modo a Niantic, The Pokèmon Company, Nintendo ed al marchio Pokèmon. Nessuna violazione del copyright è intenzionale</string>
+    <string name="about_contacts"> Contatti </string>
+
+    <string name="delete_all_pokemon_title"> Rimuovi pokemon dalla mappa </string>
+    <string name="delete_all_pokemon"> "Rimuovere tutti i pokemon dalla mappa?\nCompariranno di nuovo(se il loro tempo di spawn non è finito) con una nuova scansione." </string>
+    <string name="remove">Rimuovi</string>
+
+    <string name="scan_active_notification"> "La scansione è attiva in background" </string>
 
     <string name="setting_alerts"> "Notifiche pokemon" </string>
     <string name="setting_alerts_desc"> "Le notifiche sono inviate solo dopo che i pokemon compaiono sulla mappa in seguito ad una scansione." </string>
 
     <string name="setting_radius_alert"> "Distanza dei pokemon per le notifiche" </string>
-    <string name="setting_radius_alert_desc"> "Verrano notificati i pokemon che sono più vicini di questa distanza." </string>
+    <string name="setting_radius_alert_desc"> "Verrano notificati i pokemon che sono più vicini di questa distanza. ATTENZIONE: impostare un valore molto alto (specialmente &#8734;) può causare l\'arrivo di MOLTE notifiche. Fai attenzione." </string>
 
     <string name="setting_radius_scan"> "Raggio di scansione" </string>
-    <string name="setting_radius_scan_desc"> "Maggior è il raggio, maggiore è la distanza a cui verrano scansionati i pokemon. ATTENZIONE: impostare il raggio troppo grande aumenta i tempi di scansione." </string>
+    <string name="setting_radius_scan_desc"> "Maggiore è il raggio, maggiore è la distanza a cui verrano scansionati i pokemon. ATTENZIONE: impostare il raggio troppo grande aumenta i tempi di scansione." </string>
 
-    <string name="setting_radio_3meters"> "15 metri" </string>
-    <string name="setting_radio_5meters"> "50 metri" </string>
-    <string name="setting_radio_7meters"> "100 metri" </string>
-    <string name="setting_radio_10meters"> "150 metri" </string>
-    <string name="setting_radio_10feet"> "50 piedi" </string>
-    <string name="setting_radio_16feet"> "165 piedi" </string>
-    <string name="setting_radio_23feet"> "325 piedi" </string>
-    <string name="setting_radio_33feet"> "490 piedi" </string>
+    <string name="setting_radio_15meters"> "15m" </string>
+    <string name="setting_radio_50meters"> "50m" </string>
+    <string name="setting_radio_100meters"> "100m" </string>
+    <string name="setting_radio_150meters"> "150m" </string>
+    <string name="setting_radio_300meters"> "300m" </string>
+    <string name="setting_radio_unlimited"> "&#8734; </string>
+    <string name="setting_radio_50feet"> "50\'" </string>
+    <string name="setting_radio_166feet"> "165\'" </string>
+    <string name="setting_radio_325feet"> "325\'" </string>
+    <string name="setting_radio_490feet"> "490\'" </string>
+    <string name="setting_radio_980feet"> "980\'" </string>
 
+    <string name="setting_radio_very_small"> "Minimo" </string>
     <string name="setting_radio_small"> "Piccolo" </string>
     <string name="setting_radio_medium"> "Medio" </string>
     <string name="setting_radio_large"> "Grande" </string>
     <string name="setting_radio_very_large"> "Molto grande" </string>
 
+    <string name="setting_scan_delay"> Intervallo in scansione continua </string>
+    <string name="setting_scan_delay_desc"> Quando si è in modalità scansione continua, questo intervallo di tempo viene atteso tra scansioni.\nUsare un intervallo maggior riduce il traffico dati, uso della batteria e lavoro dei server, ma i pokemon vengon ocercati meno spesso.</string>
+    <string name="waiting_scan_interval"> Attendo per la prossima scansione.\n(Puoi cambiare questo tempo di attesa nelle impostazioni) </string>
+
     <string name="setting_units_of_measure"> "Unità di misura" </string>
 
     <string name="setting_disconnect"> "Disconnetti account" </string>
 
-    <string name="are_you_sure"> "Sei sicuro di volerti disconnettere dall'account PokemonGO?" </string>
+    <string name="setting_change_images"> "Immagini personalizzate" </string>
+    <string name="setting_change_images_desc"> "Scegli nuove immagini per sostituire quelle di default o ripristina le immagini di default." </string>
+    <string name="setting_change_images_button"> "Scegli le nuove immagini" </string>
+    <string name="setting_change_images_selected_size"> "Scegli la dimensione delle immagini (la dimensione sarà applicata solo dopo aver selezionato l'URL)" </string>
+    <string name="setting_change_images_set_url"> "Imposta l'URL" </string>
+    <string name="setting_change_images_paste_url"> "Incolla l\'URL qui" </string>
+    <string name="setting_change_images_apply_url"> "Applica le nuove immagini" </string>
+    <string name="setting_change_images_from_url"> "Immagini personalizzate da URL" </string>
+    <string name="setting_custom_images_from_url_desc"> "Inserisci un URL di un sito per sostituire le immagini. NON FARLO DURANTE UNA SCNASIONE O SARÀ MOLTO LENTO!.
+        \n L'URL inserita deve puntare ad un sito che metta a disposizione immagini png, ogni immagine deve essere raggiungibile da {URL}/{id}.png, dove {URL} è l'URL inserita e {id} è un numero di 3 cifre da 001 a 151.
+        \n Per esempio, queste URL sono valide:
+        \n http://www.serebii.net/shuffle/pokemon
+        \n http://www.serebii.net/pokemongo/pokemon/
+        \n http://www.serebii.net/sunmoon/pokemon/
+        \n http://www.pkparaiso.com/imagenes/shuffle/sprites/
+        \n http://cache.koashiko.xyz/pokemon/" </string>
+    <string name="progress_apply_url"> "Recupero immagini dall'URL " </string>
+    <string name="result_apply_url_success"> "Nuove immagini scaricate e applicate correttamente! Compariranno su mappa alla prossima scansione." </string>
+    <string name="result_apply_url_failed"> "Impossibile applicare le immagini. L'URL non è valido o c'è stato un problema col collegamento al server" </string>
+    <string name="setting_change_images_from_zip"> "Immagini personalizzate da ZIP" </string>
+    <string name="setting_custom_images_from_zip_desc"> "Qui puoi cambire le immagini dei pokemon trovati con le tue proprie immagini. Il file deve essere un .zip con sole immagini .png dentro. Il nome di ogni png deve essere {id].png (es: 1.png, 2.png) e la dimensione 32x32, 40x40 o 48x48" </string>
+    <string name="setting_progress_restore_default"> Ripristinando le immagini di default... </string>
+    <string name="setting_progress_restore_default_success">Immagini di default ripristinate! Compariranno su mappa alla prossima scansione. </string>
+    <string name="setting_progress_restore_default_failed"> Errore durante il ripristino delle immagini, prova ancora o comunicami questo problema a pokemongofind.dev@gmail.com</string>
+    <string name="update_permission_denied"> Permessi negati, non posso aggiornare</string>
+    <string name="update_permission_granted"> Permessi concessi, premi Aggiorna di nuovo..</string>
+    <string name="update_check_failed"> Non riesco a controllare i nuovi aggiornamenti. Non riesco a raggiungere il server o la rete non è disponibile. </string>
+    <string name="update_available_title"> Un nuovo aggiornamento è disponibile! </string>
+    <string name="update_available_long">"è disponibile! Aggiorna ora per ricevere le nuove funzionalità" </string>
+    <string name="changes">"Changelog:" </string>
+    <string name="update"> Aggiorna </string>
+    <string name="cancel"> Annulla </string>
+    <string name="updating_scango"> Sto scaricando e installando la nuova versione di ScanGO... </string>
+
+
+    <string name="setting_choose_file"> "Scegli un file..." </string>
+    <string name="setting_reset_default"> "Immagini di default" </string>
+
+    <string name="reset_default_are_you_sure"> Sei sicuro che vuoi ripristinare le immagini di default? Se stati usando immagini personalizzate queste andranno perse. Procedere? </string>
+    <string name="progress_unzip"> "Sto applicando le nuove immagini..." </string>
+    <string name="result_good_custom_images"> "nuove immagini correttamente applicate." </string>
+    <string name="result_bad_custom_images"> "file non erano validi." </string>
+    <string name="result_error_custom_images"> "Il file deve essere un .zip con sole immagini .png dentro. Il nome di ogni png deve essere {id].png (es: 1.png, 2.png) e la dimensione 32x32, 40x40 o 48x48" </string>
+
     <string name="yes"> "Sì" </string>
     <string name="no"> "No" </string>
 
@@ -118,19 +212,60 @@
     <string name="title_activity_settings">Impostazioni</string>
 
 
+    <string name="scan_continuous">Continua</string>
+    <string name="scan_custom_position">Scansione questa posizione</string>
+    <string name="scan_single">Singola</string>
+    <string name="scan_start">Avvia scansione</string>
+    <string name="scan_type">Tipo di Scansione</string>
+    <string name="scan_your_position">Scansione la tua posizione</string>
+    <string name="setting_alerts_option_sound">Suono</string>
+    <string name="setting_alerts_option_vibration">Vibrazione</string>
+    <string name="setting_alerts_options">Opzioni di notifica</string>
+
+    <string name="title_activity_spanw">Impostazioni Nidi</string>
+
+    <string name="enable_spawns">Abilita salvataggio Nidi</string>
+    <string name="enable_spawns_desc">Abilitando il salvataggio dei Nidi, ScanGO ricorderà tutte le posizioni dove i pokemon nascono e cliccando su di essi saprai quando nascerà il prossimo pokemon.\nATTENZIONE: tenendo salvati troppi Nidi, ScanGO potrebbe diventare più lenta. Usa le impostazioni per limitare il numero di Nidi salvati.</string>
+    <string name="delete_all_spawns">Cancella tutti i Nidi</string>
+    <string name="spawns_settings">Impostazioni Nidi</string>
+
+    <string name="numer_spawns_saved">Nidi salvati:</string>
+    <string name="spawns_limit">Limite di  nidi</string>
+    <string name="spawns_limit_desc">Quando il limite dei Nidi viene superato, il salvataggio di nuovi Nidi è disabilitato</string>
+
+    <string name="spawns_import">Importa Nidi da Json</string>
+    <string name="spawns_import_progress">Sto importando i Nidi dal json...</string>
+    <string name="result_spawns_import_fail">Non sono riuscito a importare i Nidi. File json non valido</string>
+    <string name="result_spawns_import_good">Nidi importati correttamente.</string>
+    <string name="result_spawns_import_duplicates">Nidi duplicati trovati e non importati.</string>
+    <string name="result_spawns_import_bad_format">Nidi con parametri mancanti (spawnpoint_id, lat, lng o time) trovati e non importati.</string>
+    <string name="result_spawns_import_limit_reached">"Hai raggiunto il limite di Nidi salvati, pertanto i restanti non sono stati importati. Il salvataggio automatico dei Nidi è stato disabilitato, cancella alcuni Nidi prima di riabilitarlo"</string>
+
+    <string name="spawns_export">Esporta i Nidi su Json</string>
+    <string name="spawns_delete">Elimina i Nidi</string>
+    <string name="from">Da</string>
+    <string name="to">A</string>
+    <string name="export">Esporta</string>
+    <string name="delete">Cancella</string>
+
+    <string name="spawns_export_all">Esporta tutti i Nidi su Json</string>
+
+    <string name="date_range_error">La data "A" è antecedente alla data "Da"! </string>
+    <string name="deleted_spawn_title">Risultato cancellazione</string>
+    <string name="deleted_spawn_msg0">"Cancellati "</string>
+    <string name="deleted_spawn_msg1">" Nidi"</string>
+
+    <string name="choose_directory">"Scegli una cartella"</string>
+    <string name="exported_filename">"nidi_esportati"</string>
+    <string name="exported">" salvato correttamente!"</string>
+
+    <string name="limit_reached_noti_title">"Limite di Nidi salvati raggiunto!"</string>
+    <string name="limit_reached_noti_msg">"Hai raggiunto il limite di Nidi salvati. Il salvataggio automatico dei Nidi è stato disabilitato, cancella alcuni Nidi prima di riabilitarlo"</string>
 
 
-    <string name="username">Nome utente</string>
-    <string name="remember_me">Ricordami</string>
-
-    <string name="google_login_coming_soon">Il login tramite google arriverà presto!</string>
-
-
-
-
-
-
-
-
+    <string name="setting_display_timer">"Mostra tempo mancante"</string>
+    <string name="visible">"Visibile"</string>
+    <string name="transparent">"Trasparente"</string>
+    <string name="invisible">"Invisibile"</string>
 
 </resources>
