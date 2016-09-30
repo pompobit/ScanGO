@@ -55,3 +55,7 @@ v1.25
 
 ## Contact
 to contact me you can send me a private message on github, use the issues section or send an e-mail to pokemongofinder.dev@gmail.com
+
+## Credits
+Thanks to Swordopolis for English corrections
+Thanks to pilouille for French pokemon names
