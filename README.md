@@ -13,9 +13,9 @@ You can choose to see just the pokemons you want!.
 <br/>
 <br/>
 
-<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160810-151146.png" width="250" height="444">
-<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160810-151009.png" width="250" height="444">
-<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160725-131401.png" width="250" height="444">
+<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160929-172025.png" width="250" height="444">
+<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160929-172119.png" width="250" height="444">
+<img src="https://github.com/pompobit/ScanGO/blob/master/images/Screenshot_20160929-172146.png" width="250" height="444">
 
 
 ## INFO
