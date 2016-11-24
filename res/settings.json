@@ -1,5 +1,5 @@
 {
 	"version": "v1.34",
-	"message": "Because the updates Niantic did to PokemonGO, we need you to solve some daily captcha. In the new version you need to solve a few captcha each day before to be able to scan. I tried to find an alternative but this is the only method to keep ScanGO alive at the moment, sorry. Some good news: IV scanning coming soon.",
+	"message": "We are having troubles with server load, so scan can fail at the moment. We are trying to fix as soon as possible, sorry for the incovenience",
 	"captcha": 3
 }
